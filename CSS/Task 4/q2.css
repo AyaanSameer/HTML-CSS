@@ -34,9 +34,7 @@ h2{
     height: 450px;
     background-color: white;
     margin: 20px;
-    border-left: solid 5px black;
-    border-right: solid 5px black;
-    border-bottom: solid 5px black;
+    border: solid 5px black;
 }
 
 .yellow{
@@ -50,5 +48,5 @@ h2{
     width: 200px;
     border-bottom: solid 5px black;
     border-right: solid 5px black;
-    margin-top: -20px;
+    margin-top: -10px;
 }
