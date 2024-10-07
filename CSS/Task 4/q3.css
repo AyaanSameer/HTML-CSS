@@ -1,0 +1,34 @@
+.main{
+    border: solid 5px black;
+    height: 500px;
+}
+
+.purple{
+    background-color: rgb(146, 122, 211);
+    height: 450px;
+    margin: 20px;
+}
+
+.green{
+    background-color: rgb(168, 231, 138);
+    height: 300px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: -425px;
+}
+
+.blue{
+    background-color: rgb(126, 236, 231);
+    height: 300px;
+    width: 500px;
+    margin-left: 125px;
+    margin-top: -270px;
+}
+
+.yellow{
+    background-color: rgb(223, 240, 146);
+    height: 300px;
+    width: 500px;
+    margin-left: 800px;
+    margin-top: -310px;
+}
