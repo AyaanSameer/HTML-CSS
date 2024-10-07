@@ -1,0 +1,15 @@
+.container p{
+    font-weight: bold;
+}
+
+.container span{
+    color: orange;
+}
+
+.inner p{
+    color: lightblue;
+}
+
+h2:has(+p){
+    color: darkred;
+}
