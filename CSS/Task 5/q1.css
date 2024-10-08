@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: orange;
+    font-size: large;
+    margin: 63px 40px;
+    color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+.box{
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: solid 2px black;
+}
