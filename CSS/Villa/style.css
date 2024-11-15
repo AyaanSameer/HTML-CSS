@@ -154,6 +154,10 @@ body { font-family:'Poppins', sans-serif; }
     cursor: pointer;
 }
 
+.menu{
+    display: none;
+}
+
 .container{
     height: 850px;
     display: flex;
@@ -572,6 +576,11 @@ body { font-family:'Poppins', sans-serif; }
         padding-left: 30px;
         position: sticky;
         top: 0px;
+    }
+
+    .menu{
+        display: flex;
+        margin-right: 20px;
     }
 
     .heading{
