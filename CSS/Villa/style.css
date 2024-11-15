@@ -1,0 +1,711 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body { font-family:'Poppins', sans-serif; }
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-bottom: solid 1px rgb(235, 235, 235);
+}
+
+.info{
+    display: flex;
+    gap: 30px;
+    margin-left: 300px;
+}
+
+.email{
+    display: flex;
+    gap: 10px;
+    border-right: solid 1px rgb(235, 235, 235);
+    padding-right: 30px;
+    font-size: 14px;
+    color: grey;
+}
+
+.mailicon{
+    height: 20px;
+    width: 20px;
+    color: rgb(255, 72, 0);
+}
+
+.location{
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    color: grey;
+}
+
+.locicon{
+    height: 18px;
+    width: 20px;
+    color: rgb(255, 72, 0);
+}
+
+.socialmedia{
+    display: flex;
+    justify-content: space-between;
+    gap: 13px;
+    margin-right: 320px;
+}
+
+.socials{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #cdcdcd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.socials:hover{
+    cursor: pointer;
+    background-color: rgb(255, 72, 0);
+}
+
+.socialicon{
+    color: white;
+}
+
+.nav{
+    height: 90px;
+    background-color: white;
+    display: flex;
+    padding-left: 300px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.heading{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 320px;
+    gap: 50px;
+}
+
+.page1{
+    display: flex;
+    font-size: 15px;
+    color: rgb(255, 72, 0);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.pages{
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.pages:hover{
+    color: rgb(255, 72, 0);
+    cursor: pointer;
+}
+
+.visit{
+    display: flex;
+    height: 40px;
+    width: 175px;
+    background-color: #cdcdcd;
+    border: solid 1px #cdcdcd;
+    box-sizing: border-box;
+    border-radius: 20px;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.calendar{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 72, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 2px;
+}
+
+.calendaricon{
+    color: white;
+}
+
+.visit:hover{
+    color: rgb(255, 72, 0);
+    cursor: pointer;
+}
+
+.container{
+    height: 850px;
+    display: flex;
+    background-image: url("https://images.unsplash.com/photo-1512917774080-9991f1c4c750?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dmlsbGF8ZW58MHx8MHx8fDA%3D");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.address{
+    margin-left: 300px;
+    width: 165px;
+    height: 35px;
+    display: flex;
+    background-color: white;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.toronto{
+    font-size: 16px;
+}
+
+.canada{
+    font-size: 16px;
+    color: rgb(255, 72, 0);
+}
+
+.hero{
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 300px;
+    height: 80px;
+    display: flex;
+    color: white;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 1.2;
+}
+
+.div2{
+    height: 730px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.pic1{
+    height: 500px;
+    width: 380px;
+    border-radius: 10px;
+    background-image: url("https://mlv.villas/wp-content/uploads/2022/05/Villa-Sea-View-29-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 300px;
+    display: flex;
+}
+
+.docicon{
+    height: 110px;
+    width: 110px;
+    display: flex;
+    border-radius: 50%;
+    background-color: rgb(255, 72, 0);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 445px;
+    right: 55px;
+}
+
+.featured{
+    width: 550px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.featuredheading{
+    display: flex;
+    align-items: center;
+    height: 15px;
+    font-size: 15px;
+    border-left: solid 2px rgb(255, 72, 0);
+    padding-left: 5px;
+    font-weight: 900;
+    color: rgb(255, 72, 0);
+}
+
+.featuredtag{
+    font-size: 40px;
+    font-weight: 900;
+    width: 350px;
+    line-height: 1.4;
+}
+
+.box{
+    margin-top: 50px;
+    width: 510px;
+    height: 280px;
+    background-color: #f3f2f2;
+    border-radius: 8px;
+}
+
+.subbox1{
+    display: flex;
+    height: 50px;
+    border-bottom: solid 1px #dadada;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 17px;
+    color: #ff4800;
+    font-weight: 600;
+}
+
+.subbox2{
+    display: flex;
+    height: 125px;
+    font-size: 16px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.subbox3{
+    display: flex;
+    height: 50px;
+    font-size: 16px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: solid 1px #dadada;
+    font-weight: 600;
+}
+
+.subbox4{
+    display: flex;
+    height: 50px;
+    font-size: 16px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    margin-right: 320px;
+    height: 500px;
+    width: 320px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.2  );
+    border-radius: 10px;
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+
+.subfeatures{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 37px 0px;
+    gap: 25px;
+    border-bottom: solid 1px #e2e2e2;
+}
+
+.featureinfo{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.f1{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.f2{
+    font-size: 15px;
+    color: #aaaaaa;
+}
+
+.subfeatures1{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 35px 0px;
+    gap: 25px;
+}
+
+.video_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video_background{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+    background-image: url("https://media.istockphoto.com/id/697225474/photo/blur-background-interior-design-bright-minimalist-living-room-with-sofa-and-dining-table.jpg?s=612x612&w=0&k=20&c=u9S43bd5WrJ0HZ5FdIwiJNKAeZmkzFVK4jBbB4kC2B4=");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.video_heading{
+    display: flex;
+    align-items: center;
+    height: 15px;
+    font-size: 15px;
+    color: #ee626b;
+    font-weight: 600;
+    padding-left: 5px;
+    border-left: solid 2px #ee626b;
+    margin-top: -250px;
+}
+
+.video_tag{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.video{
+    display: flex;
+    height: 500px;
+    width: 1100px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://b8architecture.com/dev/wp-content/uploads/2022/11/b8-architecture-modern-luxury-villa-morgan-v2-id-dubai-cover.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+    bottom: 250px;
+}
+
+.play_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    background-color: white;
+    outline: solid 15px rgba(255, 72, 0, 0.5);
+    cursor: pointer;
+}
+
+.facts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 70px;
+    margin-top: -125px;
+    margin-left: 100px;
+    padding-bottom: 125px;
+}
+
+.counter{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffeee9;
+    gap: 30px;
+}
+
+.count{
+    font-size: 50px;
+    color: rgb(255, 72, 0);
+}
+
+.count-text{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.circle{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 72, 0);
+    position: relative;
+    right: 95px;
+    bottom: 45px;
+}
+
+
+/* For Tab  */
+
+@media only screen and (max-width: 1023px){
+
+    .nav{
+        height: 70px;
+        padding-left: 30px;
+    }
+
+    .contact{
+        display: none;
+    }
+
+    .navbar{
+        margin-right: 30px;
+        gap: 20px;
+    }
+
+    .address{
+        margin-top: 0px;
+        margin-left: 100px;
+    }
+    
+    .hero{
+        margin-left: 100px;
+    }
+
+    .div2{
+        height: 2000px;
+        gap: 0px;
+        flex-direction: column;
+    }
+    
+    .pic1{
+        height: 700px;
+        width: 600px;
+        margin-left: 0px;
+    }
+    
+    .docicon{
+        top: 640px;
+        right: 50px;
+    }
+
+    .featured{
+        margin-left: -140px;
+        margin-top: 100px;
+    }
+    
+    .box{
+        margin-top: 30px;
+        width: 690px;
+        height: 255px;
+    }
+      
+    .subbox2{
+        height: 100px;
+    }
+    
+    .features{
+        margin-left: 320px;
+        width: 690px;
+    }
+
+    .video_heading{
+        margin-top: -200px;
+    }
+
+    .video{
+        height: 300px;
+        width: 700px;
+        bottom: 225px;
+    }
+
+    .facts{
+        flex-direction: column;
+        gap: 0px;
+        margin-top: -130px;
+        margin-left: 0px;
+        padding-bottom: 60px;
+    }
+    
+    .circle{
+        right: -150px;
+        bottom: 125px;
+    }
+
+}
+
+
+/* For Mobile */
+
+@media only screen and (max-width: 425px){
+
+    .nav{
+        height: 80px;
+        padding-left: 30px;
+        position: sticky;
+        top: 0px;
+    }
+
+    .heading{
+        font-size: 35px;
+    }
+
+    .contact{
+        display: none;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .address{
+        margin-top: -200px;
+        margin-left: 30px;
+        width: 140px;
+        height: 30px;
+    }
+    
+    .toronto{
+        font-size: 14px;
+    }
+    
+    .canada{
+        font-size: 14px;
+    }
+    
+    .hero{
+        width: 260px;
+        height: 80px;
+        font-size: 55px;
+        margin: 30px;
+    }
+
+    .div2{
+        height: 1750px;
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    .pic1{
+        height: 400px;
+        width: 300px;
+        align-self: center;
+    }
+    
+    .docicon{
+        top: 340px;
+        left: 95px;
+    }
+
+    .featured{
+        width: 320px;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .featuredheading{
+        width: 295px;
+    }
+    
+    .featuredtag{
+        font-size: 40px;
+        width: 300px;
+        line-height: 1.3;
+    }
+    
+    .box{
+        margin-top: 20px;
+        width: 300px;
+        height: 355px;
+    }
+    
+    .subbox2{
+        height: 200px;
+        font-size: 16px;
+    }
+    
+    .features{
+        height: 500px;
+        width: 300px;
+        margin-top: 130px;
+    }
+    
+    .video_background{
+        height: 500px;
+        width: 100%;
+    }
+    
+    .video_heading{
+        margin-top: -220px;
+    }
+    
+    .video_tag{
+        font-size: 30px;
+    }
+    
+    .video{
+        height: 200px;
+        width: 300px;
+        bottom: 235px;
+    }
+    
+    .play_button{
+        height: 45px;
+        width: 45px;
+    }
+
+    .facts{
+        flex-direction: column;
+        gap: 0px;
+        margin-top: -125px;
+        margin-left: -15px;
+        padding-bottom: 50px;
+    }
+    
+    .counter{
+        width: 270px;
+        height: 100px;
+        gap: 30px;
+    }
+
+    .count{
+        font-size: 45px;
+    }
+    
+    .count-text{
+        font-size: 17px;
+    }
+    
+    .circle{
+        right: -135px;
+        bottom: 125px;
+    }
+}
