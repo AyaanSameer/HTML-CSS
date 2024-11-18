@@ -1160,13 +1160,8 @@ h4{
     }
 
     .property-tag{
-        display: flex;
         font-size: 25px;
         width: 280px;
-        justify-content: center;
-        font-weight: 600;
-        text-align: center;
-        line-height: 1.3;
     }
 
     .property-grid{
